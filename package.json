@@ -1,0 +1,25 @@
+{
+  "name": "express-session-redis-store",
+  "version": "1.0.5",
+  "description": "A simple library to integrate Redis as a session store for Express applications.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/keithareith/express-session-redis-store"
+  },
+  "keywords": [
+    "express",
+    "session",
+    "redis",
+    "store"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "connect-redis": "^5.0.0",
+    "express-session": "^1.17.1",
+    "redis": "^3.0.2"
+  }
+}
